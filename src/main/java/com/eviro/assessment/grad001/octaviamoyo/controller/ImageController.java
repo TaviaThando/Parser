@@ -12,7 +12,7 @@ import java.io.File;
 @RequestMapping("/v1/api/image")
 public class ImageController {
 
-    @GetMapping(value = "/{name}/{surname}/{\\w\\.\\w")
+    @GetMapping(value = "/{name}/{surname}/{\\w\\.\\w}")
     public FileSystemResource gethttpImageLink(@PathVariable String name, @PathVariable String surname){
         /**TODO
          * Return specified result
